@@ -1,0 +1,33 @@
+body {
+    color:white;
+    background: rgb(255,143,15);
+    background: linear-gradient(0deg, rgba(255,143,15,1) 0%, rgba(252,185,49,1) 100%);
+}
+
+.wrapper {
+    display: grid;
+    
+}
+
+#location-value{
+    margin: 0;
+}
+
+.weather-details{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#temperature-value {
+    font-size: 64px;
+    margin: 0;
+}
+
+.min-max {
+    display: flex;
+    flex-direction: row;
+}
+
+.detail{
+    font-size:small;
+}
